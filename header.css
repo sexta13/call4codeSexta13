@@ -1,0 +1,68 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background-color: #3b5998;
+    min-width: 900px;
+}
+
+header .logo {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+    transform: translate(50%, -50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+header .login-form {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+}
+
+header .email {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header .password {
+    display: inline-block;
+    position: relative;
+}
+
+header .forgot-account {
+    position: absolute;
+    left: 0;
+}
+
+header .login-btn {
+    display: inline-block;
+}
+header .login-btn button {
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: white;
+}
+

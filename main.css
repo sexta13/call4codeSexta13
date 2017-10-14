@@ -1,0 +1,175 @@
+.main {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    bottom: 150px;
+    background-color: #edf0f5;
+}
+
+.main .main-container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.main article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main .info {
+    width: 565px;
+}
+
+.main .signup {
+    width: 400px;
+}
+
+.main article h2 {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 42px 0 24px;
+    line-height: 36px;
+}
+
+.main .info .extra-item .img, .main .info .extra-item .description {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main .info .extra-item {
+    line-height: 49px;
+    margin-top: 20px;
+}
+
+.main .info .extra-item .img {
+    width: 55px;
+    margin-right: 10px;
+}
+
+.main .info .extra-item .description {
+    font-weight: bold;
+    font-size: 16px
+}
+
+.main .info .extra-item .description span {
+    font-weight: normal;
+    font-size: 12px;
+
+}
+
+.main .signup .title {
+    margin-top: 20px;
+}
+
+.main .signup .title h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.main .signup .title .extra-title {
+    font-size: 14px;
+}
+
+.main .form {
+    margin-top: 10px;
+    width: 400px;
+}
+
+.main .form input {
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #bdc7d8;
+    margin-top: 10px;
+    width: 377px;
+}
+
+.main .form .first-name, .main .form .last-name {
+    width: 172px;
+}
+
+.main .form .last-name {
+    margin-left: 5px;
+}
+
+.main .birthday {
+    margin-top: 15px;
+}
+
+.main .birthday select {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+    display: inline-block;
+}
+
+.main .birthday .birth-extra-info {
+    font-size: 11px;
+    display: inline-block;
+    max-width: 150px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.main .birthday .birth-extra-info a {
+    text-decoration: none;
+    color: #365899;
+    cursor: pointer;
+}
+
+.main .gender {
+    margin-top: 10px;
+}
+
+.main .gender input {
+    width: 15px;
+}
+
+.main .gender label {
+    font-size: 18px;
+}
+.main .gender .male {
+    margin-left: 10px;
+}
+
+.main .info-terms {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+
+.main .create-btn {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.main .extra-action {
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.main .extra-action a {
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}

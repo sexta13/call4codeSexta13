@@ -1,0 +1,35 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: white;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    font-size:12px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+footer ul li a {
+    color: #365899;
+    cursor: pointer;
+}
+
+footer .splitter {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
